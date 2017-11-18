@@ -11,9 +11,11 @@
         <link rel="stylesheet" href="https://cdn.bootcss.com/mdui/0.2.1/css/mdui.min.css">
         <script src="https://cdn.bootcss.com/mdui/0.2.1/js/mdui.min.js"></script>
         <script type="text/javascript">
-            var home = document.getElementById("home");
-            var history = document.getElementById("history");
-            var about = document.getElementById("about");
+            function init() {
+                var home = document.getElementById("home");
+                var history = document.getElementById("history");
+                var about = document.getElementById("about");
+            }
             function showHome() {
                 home.style.visibility = 'visible';
                 history.style.visibility = 'hidden';
@@ -50,7 +52,7 @@
     </head>
     <body class="mdui-theme-layout-dark mdui-bottom-nav-fixed">
         <div class="main mdui-container-fluid">
-            <div id="main">
+            <div id="home">
                 <div class="main-logo mdui-row mdui-valign">
                     <img class="main-logo-image mdui-center mdui-p-a-1 mdui-col-sm-8 mdui-col-xs-10 mdui-col-md-6" src="./res/mun-logo.png"/>
                 </div>
@@ -69,7 +71,7 @@
 
             </div>
         </div>
-        <div class="mdui-bottom-nav mdui-bottom-nav-scroll-hide mdui-color-orange-900">
+        <div class="mdui-bottom-nav mdui-color-orange-900">
             <a class="mdui-ripple mdui-bottom-nav-active" onclick="showHome()">
                 <i class="mdui-icon material-icons">home</i>
             </a>
