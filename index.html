@@ -2,7 +2,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>邵东一中 模拟联合国</title>
-        <link rel="icon" sizes="192x192" href="./res/favicon.png">
+        <link rel="icon" sizes="128x128" href="./res/favicon.png">
         <meta http-equiv="pragma" content="no-cache" />
         <meta name="robots" content="all" />
         <meta name="MSSmartTagsPreventParsing" content="true" />
@@ -12,28 +12,19 @@
         <script src="https://cdn.bootcss.com/mdui/0.2.1/js/mdui.min.js"></script>
         <script type="text/javascript">
             function showHome() {
-                var home = document.getElementById("home");
-                var history = document.getElementById("history");
-                var about = document.getElementById("about");
-                home.style.display = 'inline';
-                history.style.display = 'none';
-                about.style.display = 'none';
+                document.getElementById("home").style.display = 'inline';
+                document.getElementById("history").style.display = 'none';
+                document.getElementById("about").style.display = 'none';
             }
             function showHistory() {
-                var home = document.getElementById("home");
-                var history = document.getElementById("history");
-                var about = document.getElementById("about");
-                home.style.display = 'none';
-                history.style.display = 'inline';
-                about.style.display = 'none';
+                document.getElementById("home").style.display = 'none';
+                document.getElementById("history").style.display = 'inline';
+                document.getElementById("about").style.display = 'none';
             }
             function showAbout() {
-                var home = document.getElementById("home");
-                var history = document.getElementById("history");
-                var about = document.getElementById("about");
-                home.style.display = 'none';
-                history.style.display = 'none';
-                about.style.display = 'inline';
+                document.getElementById("home").style.display = 'none';
+                document.getElementById("history").style.display = 'none';
+                document.getElementById("about").style.display = 'inline';
             }
         </script>
         <style>
