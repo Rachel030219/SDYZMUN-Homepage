@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 邵东一中 模拟联合国 官方博客
+title: 邵东一中 模拟联合国 | 博客
 subtitle: The official blog of SDYZMUN
 description: 心事浩渺连广宇 于无声处听惊雷
 author: SDYZMUN
@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://mun.stfw.info/blog
 root: /blog/
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-morgan
+theme: morgan
 
 # RSS
 feed:
