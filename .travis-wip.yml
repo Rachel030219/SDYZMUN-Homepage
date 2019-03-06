@@ -9,14 +9,16 @@ branches:
 before_script:
   - npm install -g hexo-cli
 script:
-  - hexo c && hexo g
+  - cd blog
+  - hexo clean && hexo g
+  - cd ../
   - mkdir ./public-git
   - cd ./public-git
   - git init
   - git config --global push.default matching
   - git config --global user.email "${GitHubEMail}"
   - git config --global user.name "${GitHubUser}"
-  - git remote add origin https://${GitHubKEY}@github.com/${GitHubUser}/Rachel-s-Blog.git
+  - git remote add origin https://${GitHubKEY}@github.com/${GitHubUser}/SDYZMUN-Homepage.git
   - git pull origin gh-pages
   - rm -rf ./*
   - mkdir blog
