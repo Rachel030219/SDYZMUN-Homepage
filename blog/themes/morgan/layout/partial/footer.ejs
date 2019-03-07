@@ -1,3 +1,23 @@
+<div class="ts attached secondary segment">
+    <div class="ts narrow container">
+        <br>
+        <div class="ts large center aligned header">
+            <% if(theme.footer_big_content == ""){ %>
+                Powered by <a href="https://hexo.io">Hexo</a>, Theme designed by <a href="https://github.com/hpcslag">@hpcslag</a>.
+            <% }else{ %>
+                <%= theme.footer_big_content %>
+            <% } %>
+            <div class="smaller sub header">
+            <% if(theme.footer_small_content == ""){ %>
+                Style-Framework <a href="https://tocas-ui.com">Tocas-UI</a> designed by <a href="https://github.com/YamiOdymel">@YamiOldmel</a>
+            <% }else{ %>
+                <%= theme.footer_small_content  %>
+            <% } %>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
 <script type="text/javascript">
     <% if(theme.slogan_random_display){
             function shuffle(a) {
