@@ -1,0 +1,33 @@
+language: node_js
+node_js: 
+  - "node"
+
+branches:
+  except:
+  - gh-pages
+
+before_script:
+  - npm install -g hexo-cli
+script:
+  - cd blog
+  - hexo clean && hexo g
+  - cd ../
+  - mkdir ./public-git
+  - cd ./public-git
+  - git init
+  - git config --global push.default matching
+  - git config --global user.email "${GitHubEMail}"
+  - git config --global user.name "${GitHubUser}"
+  - git remote add origin https://${GitHubKEY}@github.com/${GitHubUser}/SDYZMUN-Homepage.git
+  - git pull origin gh-pages
+  - rm -rf ./*
+  - mkdir blog
+  - cp -rf ../blog/public/* ./blog/
+  - cp -rf ../home/* ./
+  - git add --all .
+  - git commit -m "Travis CI Auto Builder"
+  - git push --quiet --force origin HEAD:gh-pages
+
+cache:
+  directories:
+    - "node_modules"
