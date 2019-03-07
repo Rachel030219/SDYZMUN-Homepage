@@ -5,9 +5,10 @@ node_js:
 branches:
   except:
   - gh-pages
+  - dev
 
 before_script:
-  - npm install hexo --save
+  - npm install hexo -g
 script:
   - cd blog
   - hexo clean && hexo g
