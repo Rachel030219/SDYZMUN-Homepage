@@ -12,7 +12,7 @@
                 <% var date = new Date(page.date); %>
                 <h1 class="ts header">
                     <span style="color: #333;"><%= page.title %></span>
-                    <div class="sub header" style="color: #808080;">Publish: <%= date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate() %> 
+                    <div class="sub header" style="color: #808080;">Publish: <%= date.getFullYear() + " / " + (date.getMonth() + 1) + " / " + date.getDate() %> 
                     <% if (page.tags && page.tags.length){ %> &nbsp;&nbsp;
                         <%- list_tags(page.tags, {
                             show_count: false,
@@ -92,9 +92,17 @@
     <div class="ts narrow container">
         <br>
         <div class="ts large center aligned header">
-            Powered by Hexo, Theme designed by @hpcslag.
-            <div class="smaller center sub header">
-                Style-Framework Tocas-UI designs by @yamioldmel 
+            <% if(theme.footer_big_content == ""){ %>
+                Powered by <a href="https://hexo.io">Hexo</a>, Theme designed by <a href="https://github.com/hpcslag">@hpcslag</a>.
+            <% }else{ %>
+                <%= theme.footer_big_content %>
+            <% } %>
+            <div class="smaller sub header">
+            <% if(theme.footer_small_content == ""){ %>
+                Style-Framework <a href="https://tocas-ui.com">Tocas-UI</a> designed by <a href="https://github.com/YamiOdymel">@YamiOldmel</a>
+            <% }else{ %>
+                <%= theme.footer_small_content  %>
+            <% } %>
             </div>
         </div>
         <br>
