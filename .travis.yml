@@ -9,9 +9,9 @@ branches:
 
 before_script:
   - npm install hexo-cli -g
-  - npm install
 script:
   - cd blog
+  - npm install
   - hexo clean && hexo g
   - cd ../
   - mkdir ./public-git
