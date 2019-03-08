@@ -1,0 +1,17 @@
+header.container#header
+  .header
+    .header-left
+      .avatar
+          a(href="/blog/")
+            img(src=theme.avatar)
+      .author
+        div.author-name
+          a(href="/blog/")=config.author
+        div.about-me=config.description
+
+    .header-right
+      ul.navigation
+        each link, text in theme.menu
+          li
+            a(href=link)=text
+            
