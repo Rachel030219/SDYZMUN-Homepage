@@ -1,0 +1,70 @@
+avatar-size = 4rem
+
+.header {
+  padding: 2 * gutter-size 0
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+}
+
+.header-left {
+  display: flex
+}
+
+.avatar {
+  width: avatar-size;
+  height: avatar-size;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+
+  a{
+    width: avatar-size;
+    height: avatar-size;
+  }  
+  img {
+    width: avatar-size;
+    height: avatar-size;
+    margin: auto
+  }
+}
+
+.author {
+  margin-left: gutter-size
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  padding: .3rem 0
+}
+
+.author-name {
+  font-size: gutter-size
+}
+
+.about-me {
+  color: color-grey
+}
+
+.navigation {
+  clearfix()
+
+  li {
+    float left
+    margin-left 2rem
+
+    a {
+      color color-grey
+
+      &:after {
+        display none
+      }
+
+      &:hover {
+        color color-link
+      }
+    }
+  }
+}
