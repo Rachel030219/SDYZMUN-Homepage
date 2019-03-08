@@ -1,9 +1,7 @@
 # Header
 menu:
-  主页: /
   归档: /blog/archives
   订阅: /blog/atom.xml
-  关于: /blog/about
 
 
 # Content
