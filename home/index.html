@@ -11,111 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="stylesheet" href="https://cdn.bootcss.com/mdui/0.4.2/css/mdui.min.css">
         <script src="https://cdn.bootcss.com/mdui/0.4.2/js/mdui.min.js"></script>
-        <style>
-            * {
-                padding: 0px;
-                margin: 0px;
-            }
-            body {
-                position: relative;
-                top: 0px;
-            }
-            div.main {
-                background-color: #DEDEDE;
-            }
-
-            div.main-background {
-                background-image: url("res/background.jpg");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            div.main-logo { height: 70vh; }
-            img.main-logo-image {
-                max-width: 100%;
-                max-height: 100%;
-                width: auto;
-                height: auto;
-            }
-
-            div.main-title {
-                position: relative;
-                height: 30vh;
-            }
-            div.main-title-text {
-                font-size: 3em;
-                font-weight: bold;
-                color: #FFFFFF;
-                text-shadow: 1px 1px 4px #333333;
-                margin: auto;
-                text-align: center;
-            }
-            p.main-copyright {
-                position: absolute;
-                text-align: right;
-                font-size: 1em;
-                margin: 2px;
-                color: #FFFFFF;
-                opacity: 0.3;
-                right: 0;
-                bottom: 0;
-            }
-            a.license-link {
-                color: #FFFFFF;
-                opacity: 0.5;
-                font-weight: bold;
-                text-decoration: none;
-            }
-			a.license-link:hover {
-                color: #FFFFFF;
-                opacity: 0.6;
-            }
-
-            div.main-desc { height: 30vh; }
-            div.main-desc-text {
-                color: #000000;
-                font-size: 1.5em;
-                text-shadow: 1px 1px 4px #333333;
-                margin: auto;
-                text-align: center;
-            }
-
-            div.main-archives {
-                position: relative;
-                height: 80vh;
-            }
-            span.main-archives-text {
-                font-size: 2.2em;
-                font-weight: bold;
-                background-color: #444444;
-                color: #FFFFFF;
-                padding: 18px;
-                line-height: 80vh;
-            }
-            div.main-archives-background {
-                background-image: url("res/archives.jpg");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            a.main-archives-blog {
-                text-decoration: none;
-                color: #FFFFFF;
-            }
-
-            p.main-inprogress {
-                color: #000000;
-                opacity: 0.7;
-                font-size: 1.2em;
-                height: 10vh;
-                margin: auto;
-                text-align: center;
-                line-height: 10vh;
-            }
-        </style>
+        <link rel="stylesheet" href="main.css" />
+        <script src="main.js"></script>
     </head>
     <body>
         <div class="container">
@@ -138,10 +35,12 @@
                 </div>
                 <div class="main-archives">
                     <div class="main-archives-background">
-                        <span class="main-archives-text"><a class="main-archives-blog" href="/blog">博 客</a></span>
-                        <p class="main-copyright">
-                            By National_archives_2007_02_03.JPG:Nick Cooper at en.wikipedia derivative work: Harumphy (National_archives_2007_02_03.JPG) (<a class="license-link" href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>), from Wikimedia Commons
-                        </p>
+                        <div class="main-archives-transitionBG">
+                            <span class="main-archives-text" onmouseover="onBlogMouseOver()" onmouseout="onBlogMouseOut()"><a class="main-archives-blog" href="/blog">博 客</a></span>
+                            <p class="main-copyright">
+                                By National_archives_2007_02_03.JPG:Nick Cooper at en.wikipedia derivative work: Harumphy (National_archives_2007_02_03.JPG) (<a class="license-link" href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>), from Wikimedia Commons
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <p class="main-inprogress">Constructing…</p>
