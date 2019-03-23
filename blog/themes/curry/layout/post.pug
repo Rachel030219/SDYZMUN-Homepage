@@ -27,6 +27,7 @@ block content
 
 block js
   include ../_partial/post_footer.pug
+  != js('script/post')
   if config.disqus_shortname
     script
       | var disqus_shortname = '!{config.disqus_shortname}';
