@@ -1,15 +1,13 @@
 # 邵东一中模拟联合国主页
 
-随便乱七八糟写的一个东西，不负各种乱七八糟的社会责任，以上（跑
+Officially announced, since 2018.
 
-计划与社团及学校内进行协商，若能获得同意有可能更换域名
-
-传送门： [MUN.STFW.info](https://mun.stfw.info)
+传送门： [SDYZMUN.club](https://sdyzmun.club)
 
 ### LICENSE
 
 ```
-Copyright 2017 Rachel030219
+Copyright 2017 SDYZMUN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
