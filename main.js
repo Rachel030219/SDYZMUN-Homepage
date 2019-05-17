@@ -6,15 +6,6 @@ window.onload=function(){
     })
 };
 
-function onBlogMouseOver() {
-    var archivesBackground = document.getElementsByClassName("main-archives-transitionBG")[0];
-    archivesBackground.id = "transition";
-}
-function onBlogMouseOut() {
-    var archivesBackground = document.getElementsByClassName("main-archives-transitionBG")[0];
-    archivesBackground.id = "";
-}
-
 // Here comes click events
 function onBlogClick () {
     window.location.href = "https://blog.sdyzmun.club";
@@ -59,10 +50,8 @@ function copyToClipboard(text) {
   
     try {
         var successful = document.execCommand('copy');
-        var msg = successful ? 'successful' : 'unsuccessful';
-        console.log('Copying text command was ' + msg);
     } catch (err) {
-        console.log('Oops, unable to copy');
+        console.log(err);
     }
   
     document.body.removeChild(textArea);
