@@ -16,6 +16,9 @@ function onGitHubClick () {
 function onEmailClick () {
     window.location.href = "mailto:sdyzmun@qq.com";
 }
+function onAboutClick () {
+    window.location.href = "https://blog.sdyzmun.club/about";
+}
 
 function copyToClipboard(text) {
     var textArea = document.createElement("textarea");
