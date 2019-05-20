@@ -3,6 +3,9 @@ window.onload=function(){
     var qrDialog = document.getElementById('QQDialog');
     qrDialog.addEventListener('confirm.mdui.dialog', function () {
         copyToClipboard("3529609351");
+        mdui.snackbar({
+            message: '已复制到剪贴板'
+        });
     })
 };
 
