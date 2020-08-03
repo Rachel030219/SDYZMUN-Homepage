@@ -11,7 +11,7 @@ window.onload=function(){
 
 // Here comes click events
 function onBlogClick () {
-    window.location.href = "https://blog.sdyzmun.club";
+    window.location.href = "https://mun.stfw.info/blog";
 }
 function onGitHubClick () {
     window.location.href = "https://github.com/SDYZMUN";
@@ -20,7 +20,7 @@ function onEmailClick () {
     window.location.href = "mailto:sdyzmun@qq.com";
 }
 function onAboutClick () {
-    window.location.href = "https://blog.sdyzmun.club/about";
+    window.location.href = "https://mun.stfw.info/blog/about";
 }
 
 function copyToClipboard(text) {

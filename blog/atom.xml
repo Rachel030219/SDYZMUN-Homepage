@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>博客 | 邵东一中 模拟联合国 - SDYZMUN</title>
+  
+  <subtitle>The official blog of SDYZMUN</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.sdyzmun.club/"/>
+  <updated>2019-06-05T15:31:27.365Z</updated>
+  <id>https://blog.sdyzmun.club/</id>
+  
+  <author>
+    <name>邵东一中 模拟联合国</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又是一年毕业季</title>
+    <link href="https://blog.sdyzmun.club/2019/06/%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4%E6%AF%95%E4%B8%9A%E5%AD%A3/"/>
+    <id>https://blog.sdyzmun.club/2019/06/又是一年毕业季/</id>
+    <published>2019-06-05T15:28:38.000Z</published>
+    <updated>2019-06-05T15:31:27.365Z</updated>
+    
+    <content type="html"><![CDATA[<p> 春去夏至，万象更新，我们也迎来了update’s time.<br>  “嫩芽”们经过一年的成长，已经到了盛开的季节。经决定，我们将于近期进行组委换届。另外，我们的官网地址也会有所变动，新地址为：<a href="https://sdyzmun.club" target="_blank" rel="noopener">SDYZMUN.club</a><br>  最后祝高三学长们高考“高粽”</p><a id="more"></a><h3 id="上任组委寄语"><a href="#上任组委寄语" class="headerlink" title="上任组委寄语"></a>上任组委寄语</h3><p><strong>秘书长 曹佳萍女士</strong></p><p>未来可期，一切掌握在诸君手中，加油！</p><p><strong>副秘书长 李悦偲女士</strong></p><p>继承传统，推陈出新</p><p>乘风破浪，一往无前</p><p><strong>学术中心中文组总监 颜佳璐女士</strong></p><p>希望你们能带领模联走上巅峰！</p><p><strong>英文组副总监 刘恩妮女士</strong></p><p>模联在我们这个地方还是太弱小了，学术或者影响力都是在一种很尴尬的局面。但，强大都是从弱小中走出来的，不求你们能弄得多么辉煌，但，请带领这个团体前进，哪怕一小步。</p><p><strong>主新闻中心总监 龙溪女士</strong></p><p>愿乘风破浪不失本心。</p><p><strong>公关总监兼技术副总监 唐睿先生</strong></p><p>SDYZMUN的未来，就托付给你们了。</p><p><strong>会务总监 尹晴女士</strong></p><p>加油！Amigo！</p><p><strong>技术总监 李亦龙先生</strong></p><p>祝你们心态良好</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 春去夏至，万象更新，我们也迎来了update’s time.&lt;br&gt;  “嫩芽”们经过一年的成长，已经到了盛开的季节。经决定，我们将于近期进行组委换届。另外，我们的官网地址也会有所变动，新地址为：&lt;a href=&quot;https://sdyzmun.club&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SDYZMUN.club&lt;/a&gt;&lt;br&gt;  最后祝高三学长们高考“高粽”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="公告" scheme="https://blog.sdyzmun.club/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我们的 Hexo 主题已开源！</title>
+    <link href="https://blog.sdyzmun.club/2019/05/theme-os/"/>
+    <id>https://blog.sdyzmun.club/2019/05/theme-os/</id>
+    <published>2019-05-27T10:13:09.000Z</published>
+    <updated>2019-06-05T15:31:27.365Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我们做出的又一个（违反广告法）的决定——将本博客所使用的主题独立并在 GitHub 上开放源代码，以贡献给予我们极大支持的开源社区，并方便所有想要造界面与交互设计同本博客相似的轮子的 Hexo 用户。我们将如 <a href="https://github.com/SDYZMUN/hexo-theme-curry/tree/master/README.md" target="_blank" rel="noopener">README</a> 所述的那样持续同步上游代码，并不断对已有的架构进行调整以在原主题宗旨和美观度间探求平衡。SDYZMUN 技术中心在未来将继续发扬开源精神，以技术为主导不断前进。</p><a id="more"></a><p>参见：</p><p><a href="https://github.com/SDYZMUN" target="_blank" rel="noopener">我们的 GitHub 组织</a></p><p><a href="https://github.com/SDYZMUN/hexo-theme-curry" target="_blank" rel="noopener">GitHub 仓库 SDYZMUN/hexo-theme-curry</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是我们做出的又一个（违反广告法）的决定——将本博客所使用的主题独立并在 GitHub 上开放源代码，以贡献给予我们极大支持的开源社区，并方便所有想要造界面与交互设计同本博客相似的轮子的 Hexo 用户。我们将如 &lt;a href=&quot;https://github.com/SDYZMUN/hexo-theme-curry/tree/master/README.md&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;README&lt;/a&gt; 所述的那样持续同步上游代码，并不断对已有的架构进行调整以在原主题宗旨和美观度间探求平衡。SDYZMUN 技术中心在未来将继续发扬开源精神，以技术为主导不断前进。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="公告" scheme="https://blog.sdyzmun.club/tags/%E5%85%AC%E5%91%8A/"/>
+    
+      <category term="技术" scheme="https://blog.sdyzmun.club/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>明信片设计，我们与您</title>
+    <link href="https://blog.sdyzmun.club/2019/04/behind-our-design/"/>
+    <id>https://blog.sdyzmun.club/2019/04/behind-our-design/</id>
+    <published>2019-04-02T09:48:55.000Z</published>
+    <updated>2019-06-05T15:31:27.365Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们坚信，优秀的设计能够让人得到对美的满足感，而作为辛劳与精力的结晶，设计应当于所有人共享。出于这样的信念，我们设计了一套大方、精致而不输于气质的明信片，并愿于此与您分享它们的诞生所被倾注的热忱与诚意。</p><h3 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h3><a id="more"></a><p><img src="https://i.loli.net/2019/04/03/5ca3e4d0019f3.png" alt="示例 - 地球"></p><p>我们于该明信片的设计中，头一次采用了罕见的反色对撞风，辅以我们的 slogan ，意在为您带来冲击力十足而又不让人生厌的视觉享受。妇女节当天的地球远景，不但代表着我们对各位女士的尊敬，更象征着我们博客的正式开放。与此同时，加上电路痕巧妙精细的点缀，我们与您无间联系所仰赖的科技，被致以了崇高的敬意。</p><h3 id="一中"><a href="#一中" class="headerlink" title="一中"></a>一中</h3><p><img src="https://i.loli.net/2019/04/03/5ca3e4d0255c9.png" alt="示例 - 一中"></p><p>传统的 postcard 结构，由于一中元素的加入而具有了不同凡响的灵魂。技术人员夜以继日的工作，使我们得以如愿以偿地将一中的象征——校徽与会辅碑——得以长存，以全然不同的、充满活力的形式出现在明信片上。为获得具有纪念意义的一中俯瞰图，我们的技术人员可谓呕心沥血，而其成果，也被我们理所当然地放在了画面焦点。而我们现在坚定地相信，气宇轩昂的一中学子，从不会因困难而停下追求的脚步。</p><h3 id="联合国"><a href="#联合国" class="headerlink" title="联合国"></a>联合国</h3><p><img src="https://i.loli.net/2019/04/03/5ca3e4d0473ae.png" alt="示例 - 联合国"></p><p>混色手法的巧妙运用，毫无疑问地将这张明信片的艺术感推向高峰。我们选择让彩练于方寸间尽情挥洒，恍若落地便要溢出纸面。为了达到这种效果，我们特地选用了一张苍穹之下的联合国大厦，以飘扬着的国旗为衬，而其最终实现，一如您眼前所见。流光溢彩却不矫揉造作，所想传递的其实是我们最衷心的希冀：愿和平之风如吹拂着国旗一般，流转于世间的每个角落。</p><h3 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h3><p><img src="https://i.loli.net/2019/04/03/5ca3e4d043b9c.png" alt="示例 - 中国"></p><p>由会务总监亲自操刀，公关中心鼎力相助，如此豪华的设计师阵容，只愿为您欣赏完前三张明信片后已较为疲劳的感官，带来绝无仅有的刺激。「中国」，这个百做不厌的主题，在我们倾尽全力的完善下，以崭新的形态与您相见。画面焦点放在了夕阳西下的紫禁城，配以铺满视野的宣纸，而正面用印章破除单调，背面以剪纸作为框架，我们将中华上下五千年的历史文化结晶凝聚于一体，于八面玲珑中尽显我们对这泱泱大国的自信。</p><hr><p>也许确定设计稿的过程苦涩而艰难，饱含汗水、思考乃至争吵，但我们相信，我们的设计成果从未逊色，而对其的鼓励与批评，也将在未来成为 SDYZMUN 发展的动力！</p><blockquote><p>版权声明：部分图片来自互联网，受版权所在地法律及内容分发协议的保护。SDYZMUN 尊重原作者的正当权利，并对原作者表示衷心的感谢，若您认为您的著作权受到侵犯，请立即 <a href="mailto:3529609351@qq.com" target="_blank" rel="noopener">联系我们</a></p></blockquote><blockquote><p>特别感谢：</p><p>SDYZMUN 第三届秘书长 罗志泽先生</p><p>新浪微博 <a href="https://weibo.com/secretphotography?refer_flag=1005055013_" target="_blank" rel="noopener">@刘顺儿妞</a></p><p><a href="http://himawari8.nict.go.jp" target="_blank" rel="noopener">Himawari-8 Real-time Web</a> by the NICT Science Cloud project</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们坚信，优秀的设计能够让人得到对美的满足感，而作为辛劳与精力的结晶，设计应当于所有人共享。出于这样的信念，我们设计了一套大方、精致而不输于气质的明信片，并愿于此与您分享它们的诞生所被倾注的热忱与诚意。&lt;/p&gt;
+&lt;h3 id=&quot;地球&quot;&gt;&lt;a href=&quot;#地球&quot; class=&quot;headerlink&quot; title=&quot;地球&quot;&gt;&lt;/a&gt;地球&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="设计" scheme="https://blog.sdyzmun.club/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+      <category term="彩虹屁" scheme="https://blog.sdyzmun.club/tags/%E5%BD%A9%E8%99%B9%E5%B1%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是「模拟联合国」？</title>
+    <link href="https://blog.sdyzmun.club/2019/03/what-is-mun/"/>
+    <id>https://blog.sdyzmun.club/2019/03/what-is-mun/</id>
+    <published>2019-03-23T12:44:05.000Z</published>
+    <updated>2019-06-05T15:31:27.365Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><p>模拟联合国（Model United Nations, MUN）活动属于种类繁多的模拟活动之分支，于联合国成立后发展而来。早在 1927 年联合国尚未成立之时，哈佛大学就已成立了模拟国际联盟。1949 年 2 月 11 日至 13 日，美国圣劳伦斯大学举办了世界第一场正式意义上的 MUN 会议。<br><a id="more"></a><br>至于国内的情况，1995 年 6 月 3 日，中国国内第一场 MUN 会议于外交学院举行。在参加了哈佛大学的 HMUN (Harvard MUN) 大会后，北京大学的学生在 2005 年举办了中国第一次全国中学生模拟联合国大会。随后，中国境内的 MUN 活动蓬勃发展，而北京大学召开全国中学生模拟联合国大会的传统一直延续至今（即今天俗称的「北大会议」，由 PKUNMUN 举办）。</p><h2 id="现状"><a href="#现状" class="headerlink" title="现状"></a>现状</h2><p>「模拟联合国」，顾名思义，即对联合国所举行的会议进行模拟。其通常形式为，由学生扮演国家代表，在模拟会场上进行辩论。随着 MUN 活动的不断发展，MUN 所模拟的内容，已不仅仅只是联合国大会或是联合国诸多委员会中的一个，而已经演变为了各种各样的会议，统称为「特殊委员会」。</p><p>MUN 活动几十年来之所以能够保持发展而长盛不衰，与其对参与者各项能力的锻炼脱不了干系。相对其它各种各样的模拟， MUN 所需要的才能更为全面。参与者不但可以在磋商中积极外交、于文件中提升写作，还能锻炼面对突发状况时的随机应变能力。此外， MUN 活动也是一个重要的交际途径，甚至被戏称为「三大婚介所」之一。</p><h4 id="特殊委员会"><a href="#特殊委员会" class="headerlink" title="特殊委员会"></a>特殊委员会</h4><p>一个特殊委员会所举行的会议，其背景或是与目前的国际政治形势关系不大，或是处于完全的架空世界观中。这类委员会通常采用特殊的议事规则，拥有特殊的席位与会场，并且通过一些途径（称「危机联动」）推动整场会议的发展。一个特殊委员会可以在商鞅变法前夕激烈争论，亦可回到法国大革命的光辉岁月，甚至可以就面壁者之选各抒己见。正因其独有的高自由度，特殊委员会已成为越来越多的 MUN 会议首选的委员会，常规的联合国会议则正在淡出人们的视野。目前，一场大型 MUN 会议通常设立多个特殊委员会， 并/或 在同一个特殊委员会下设立多个会场，以进一步提高会议的多样性。</p><hr><h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ol><li><a href="https://www.harvardmun.org/about-1" target="_blank" rel="noopener">WHAT IS HMUN?</a> - Harvard Model United Nations</li><li>“Ten Colleges Participate in Model Session of United Nations Held at S. L.U. Campus”, <em>Watertown Daily Times</em>, 14 February 1949.</li><li><a href="http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&amp;dbname=CJFD9495&amp;filename=WJXY503.015" target="_blank" rel="noopener">记外交学院首届模拟联合国活动</a> - 贾伽</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;历史&quot;&gt;&lt;a href=&quot;#历史&quot; class=&quot;headerlink&quot; title=&quot;历史&quot;&gt;&lt;/a&gt;历史&lt;/h2&gt;&lt;p&gt;模拟联合国（Model United Nations, MUN）活动属于种类繁多的模拟活动之分支，于联合国成立后发展而来。早在 1927 年联合国尚未成立之时，哈佛大学就已成立了模拟国际联盟。1949 年 2 月 11 日至 13 日，美国圣劳伦斯大学举办了世界第一场正式意义上的 MUN 会议。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="科普" scheme="https://blog.sdyzmun.club/tags/%E7%A7%91%E6%99%AE/"/>
+    
+      <category term="学术" scheme="https://blog.sdyzmun.club/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>邵东一中模拟联合国官方博客 —— 开张！</title>
+    <link href="https://blog.sdyzmun.club/2019/03/hello-world/"/>
+    <id>https://blog.sdyzmun.club/2019/03/hello-world/</id>
+    <published>2019-03-08T12:55:36.000Z</published>
+    <updated>2019-06-05T15:31:27.365Z</updated>
+    
+    <content type="html"><![CDATA[<p>经过密切的筹划与技术人员 24 小时连轴转的工作，我们的官方博客终于在女王节当天成功上线！<br><a id="more"></a><br>从此以后， <a href="/">这里</a> 将成为我们发布新东西的重要平台，我们也将持续为各位提供符合我们一贯水平的高质量内容！加书签，不迷路！想要第一时间获取我们的所有更新，也欢迎将我们博客的 <a href="/atom.xml">RSS Feed</a> 加入您的订阅！</p><p>顺祝各位读到这里的、已经或即将成为女王的模联同道，女王节快乐！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过密切的筹划与技术人员 24 小时连轴转的工作，我们的官方博客终于在女王节当天成功上线！&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="公告" scheme="https://blog.sdyzmun.club/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+</feed>
