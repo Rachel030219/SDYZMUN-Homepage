@@ -441,7 +441,7 @@ footer a {
   border: 1px #a7b0b3 solid;
 }
 .article .checkbox-wrap.checked {
-  background-image: url("/images/check.svg");
+  background-image: url("/blog/images/check.svg");
   background-repeat: no-repeat;
 }
 .article .checkbox-wrap input {

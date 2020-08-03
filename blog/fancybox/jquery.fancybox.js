@@ -285,7 +285,7 @@
 					type = element.data('fancybox-type');
 
 					if (!type) {
-						rez  = element.prop('class').match(/fancybox\.(\w+)/);
+						rez  = element.prop('class').match(/blog/fancybox\.(\w+)/);
 						type = rez ? rez[1] : null;
 					}
 				}
@@ -999,7 +999,7 @@
 			// This helps IE
 			$(coming.wrap).bind('onReset', function () {
 				try {
-					$(this).find('iframe').hide().attr('src', '//about:blank').end().empty();
+					$(this).find('iframe').hide().attr('src', '//blog/about:blank').end().empty();
 				} catch (e) {}
 			});
 
