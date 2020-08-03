@@ -11,7 +11,7 @@ window.onload=function(){
 
 // Here comes click events
 function onBlogClick () {
-    window.location.href = "https://mun.stfw.info/blog";
+    window.location.href = "https://mun.stfw.info/blog/";
 }
 function onGitHubClick () {
     window.location.href = "https://github.com/SDYZMUN";
